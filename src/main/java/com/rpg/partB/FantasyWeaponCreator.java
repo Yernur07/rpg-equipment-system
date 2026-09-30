@@ -1,4 +1,6 @@
 package com.rpg.partB;
 
-public class FantasyWeaponCreator {
+public class CyberWeaponCreator extends WeaponCreator {
+    @Override
+    public Weapon createWeapon() { return new CyberWeapon(); }
 }
