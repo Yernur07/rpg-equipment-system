@@ -64,3 +64,4 @@ public class ClientWithoutFactories {
         System.out.println("Total combat power: " + client.performAttack());
     }
 }
+
